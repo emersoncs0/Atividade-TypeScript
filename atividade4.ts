@@ -1,6 +1,6 @@
 function concatenar(nome: string, sobrenome: string): string {
-  const nomeCompleto: string = `${nome} ${sobrenome}`;
-  return nomeCompleto;
+  return `${nome} ${sobrenome}`;
 }
 
 console.log(concatenar("Emerson", "Cardoso"));
+
